@@ -81,4 +81,13 @@ public class StudentManager {
             System.out.println(student);
         }
     }
+    
+    /**
+     * Returns the number of students in the system.
+     *
+     * @return number of students
+    */
+    public int getStudentCount() {
+         return students.size();
+    }
 }
