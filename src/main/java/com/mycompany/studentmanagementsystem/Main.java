@@ -20,9 +20,13 @@ public class Main {
         System.out.println("Student List");
         System.out.println("------------");
 
+        
         manager.displayStudents();
         
+        System.out.println("Number of students: " + manager.getStudentCount());
         System.out.println();
+        
+      
         System.out.println("Removing student with ID 1...");
         System.out.println();
 
@@ -33,6 +37,8 @@ public class Main {
         System.out.println("--------------------");
 
         manager.displayStudents();
+        
+        System.out.println("Number of students: " + manager.getStudentCount());
     }
 
 }
